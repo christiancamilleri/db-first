@@ -1,0 +1,8 @@
+ID: INT (PRIMARY KEY)
+marca: VARCHAR(50) (NOT_NULL)
+modello: VARCHAR(150) (NOT_NULL)
+anno_immatricolazione: YEAR (NOT_NULL)
+chilometraggio: MEDIUMINT
+Conditions - VARCHAR (5) (nuova, usata) - NULL
+Price - MEDIUMINT (6, 3) - NOTNULL
+disponibilità: BOOLEAN (NOT_NULL)
